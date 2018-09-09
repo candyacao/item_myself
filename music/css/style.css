@@ -1,0 +1,10 @@
+@charset "UTF-8";
+
+.li-nostyle {
+	list-style: none;
+}
+
+.main-list-songs{
+	width: 20%;
+	float: left;
+}

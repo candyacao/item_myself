@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>rdio-music</title>
+<link rel="stylesheet" type="text/css" href="css/normalize.css">
+<link href="css/bootstrap.css" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<link rel="stylesheet" type="text/css" href="css/audio.css">
+<!-- <link rel="stylesheet" type="text/css" href="css/debug.css"> -->
+
+<style type="text/css">
+  body{
+    font-size: 50%;
+  }
+  #header-search {
+  }
+  #header-search input {
+    border-radius: 1.5rem; border: 2px solid #eee; transition: .3s linear;
+  }
+</style>
+</head>
+<body>
+  <header>
+    <nav class="navbar navbar-light">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="index.html">
+            <img alt="redio" src="images/logo.gif">
+          </a>
+        </div>
+
+        <div class="collapse navbar-collapse" id="header-search">
+          <!-- left nav -->
+          <form class="navbar-form navbar-left" role="search">
+            <div class="form-group">
+              <input type="text" class="form-control" placeholder="search..">
+            </div>
+          </form>
+
+          <!-- right nav -->
+          <ul class="nav navbar-nav navbar-right">
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">彼岸·花正开 |<span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="people.html">个人中心</a></li>
+              <li><a href="#">注销</a></li>
+            </ul>
+          </li>
+          <li><a href="#"><img src="images/ling.gif"></a></li>
+          <li><a href="#"><img src="images/head.gif"></a></li>
+        </ul>  
+        </div>
+        
+      </div>
+    </nav>
+  </header>
+
+  <!-- main -->
+  <main class="container-fluid">
+    <main class="row">
+      <!-- left nav -->
+            <nav class="col-xs-2">
+              <div>.</div>
+              <section>
+                <header>发现音乐</header>
+                <ul class="list-group">
+                  <li class="li-nostyle"><a class="list-group-item" href="find-music.html"><span class="glyphicon glyphicon-film"></span> 歌单</a></li>
+                  <li class="li-nostyle"><a class="list-group-item" href="tv.html"><span class="glyphicon glyphicon-film"></span> TV</a></li>
+                  <li class="li-nostyle"><a class="list-group-item" href="mv.html"><span class="glyphicon glyphicon-film"></span> MV</a></li>
+                  <li class="li-nostyle"><a class="list-group-item" href="people.html"><span class="glyphicon glyphicon-film"></span> 朋友</a></li>
+                </ul>
+              </section>
+
+              <section>
+                <header>你的音乐</header>
+                <ul class="list-group">
+                  <li class="li-nostyle"><a class="list-group-item" href="people.html"><span class="glyphicon glyphicon-film"></span> 我喜欢</a></li>
+                  <li class="li-nostyle"><a class="list-group-item" href="people.html"><span class="glyphicon glyphicon-film"></span> 最近播放</a></li>
+                  <li class="li-nostyle"><a class="list-group-item" href="people.html"><span class="glyphicon glyphicon-film"></span> 下载管理</a></li>
+              </section>
+
+              <section>
+                <header>播放列表</header>
+                <ul class="list-group">
+                  <li class="li-nostyle"><a class="list-group-item" href="people.html">正在播放</a></li>
+                  <li class="li-nostyle"><a class="list-group-item" href="people.html">发现</a></li>
+                </ul>
+              </section>
+            </nav>
+
+      <!-- right main -->
+      <main class="col-xs-9">
+
+        <!-- profile -->
+        <article>
+          <div class="row">
+            <div class="col-xs-4">
+              <article class="row">
+                <section class="col-xs-3" width: 5rem;>
+                  <!-- <img src="images/people-av.gif"> -->
+                  <img class="img-responsive" src="images/an.jpg">
+                </section>
+                <section class="col-sx-9">
+                  <h2>发现Music</h2>
+                </section>
+              </article>
+            </div>
+            <div class="col-xs-8"></div>
+          </div>
+        </article>
+
+        <!-- main nav -->
+        <nav >
+          <ul class="nav nav-tabs">
+            <li role="presentation"><a href="#">推荐</a></li>
+            <li role="presentation"><a href="#">歌手</a></li>
+            <li role="presentation"><a href="#">排行榜</a></li>
+            <li role="presentation"><a href="#">新碟上架</a></li>
+          </ul>
+        </nav>
+
+        <!-- Top Music -->
+        <article class="container-fluid">
+          <header>。</header>
+          <main>
+
+            <!-- one row -->
+            <div class="row">
+              <!-- start img li -->
+                <div class="main-list-songs">
+                  <div class="thumbnail">
+                    <img src="images/music/300 (6).jpg" alt="music">
+                    <div class="caption">
+                      <p>青锋微凉</p>
+                      <p>维金</p>
+                    </div>
+                  </div>
+                </div>
+              <!-- end img li -->
+
+              <!-- start img li -->
+                <div class="main-list-songs">
+                  <div class="thumbnail">
+                    <img src="images/music/T002R300x300M000000j3nVf1oWuSS.jpg" alt="music">
+                    <div class="caption">
+                      <p>真正的铁拳</p>
+                      <p>SEVER</p>
+                    </div>
+                  </div>
+                </div>
+              <!-- end img li -->
+
+              <!-- start img li -->
+                <div class="main-list-songs">
+                  <div class="thumbnail">
+                    <img src="images/music/300 (8).jpg" alt="music">
+                    <div class="caption">
+                      <p>天籁之音第二季</p>
+                      <p>天籁之战</p>
+                    </div>
+                  </div>
+                </div>
+              <!-- end img li -->
+
+              <!-- start img li -->
+                <div class="main-list-songs">
+                  <div class="thumbnail">
+                    <img src="images/music/T002R300x300M000000GJWeQ1Sx0Is.jpg" alt="music">
+                    <div class="caption">
+                      <p>Native(Deluxe)</p>
+                      <p>OneRepublic</p>
+                    </div>
+                  </div>
+                </div>
+              <!-- end img li -->
+
+              <!-- start img li -->
+                <div class="main-list-songs">
+                  <div class="thumbnail">
+                    <img src="images/music/T002R300x300M0000000V2Kr3HbzLH.jpg" alt="music">
+                    <div class="caption">
+                      <p>青锋微凉</p>
+                      <p>维金</p>
+                    </div>
+                  </div>
+                </div>
+              <!-- end img li -->
+            </div>
+            <!-- end one row  -->
+
+            
+            <!-- one row -->
+            <div class="row">
+              <!-- start img li -->
+                <div class="main-list-songs">
+                  <div class="thumbnail">
+                    <img src="images/music/300.jpg" alt="music">
+                    <div class="caption">
+                      <p>爱的过去式</p>
+                      <p>庄心妍</p>
+                    </div>
+                  </div>
+                </div>
+              <!-- end img li -->
+
+              <!-- start img li -->
+                <div class="main-list-songs">
+                  <div class="thumbnail">
+                    <img src="images/music/T002R300x300M000000bBZhk4cL5rF.jpg" alt="music">
+                    <div class="caption">
+                      <p>拉住我的手</p>
+                      <p>将阵容</p>
+                    </div>
+                  </div>
+                </div>
+              <!-- end img li -->
+
+              <!-- start img li -->
+                <div class="main-list-songs">
+                  <div class="thumbnail">
+                    <img src="images/music/300 (3).jpg" alt="music">
+                    <div class="caption">
+                      <p>项羽·虞姬</p>
+                      <p>星动亚洲</p>
+                    </div>
+                  </div>
+                </div>
+              <!-- end img li -->
+
+              <!-- start img li -->
+                <div class="main-list-songs">
+                  <div class="thumbnail">
+                    <img src="images/music/300 (9).jpg" alt="music">
+                    <div class="caption">
+                      <p>但得刚刚好</p>
+                      <p>维奇</p>
+                    </div>
+                  </div>
+                </div>
+              <!-- end img li -->
+
+              <!-- start img li -->
+                <div class="main-list-songs">
+                  <div class="thumbnail">
+                    <img src="images/music/300 (5).jpg" alt="music">
+                    <div class="caption">
+                      <p>原谅歌</p>
+                      <p>小萌</p>
+                    </div>
+                  </div>
+                </div>
+              <!-- end img li -->
+            </div>
+            <!-- end one row  -->
+            <!-- one row -->
+            <div class="row">
+              <!-- start img li -->
+                <div class="main-list-songs">
+                  <div class="thumbnail">
+                    <img src="images/music/T002R300x300M000000vVxnm48Yu0g (1).jpg" alt="music">
+                    <div class="caption">
+                      <p>爱的过去式</p>
+                      <p>庄心妍</p>
+                    </div>
+                  </div>
+                </div>
+              <!-- end img li -->
+
+              <!-- start img li -->
+                <div class="main-list-songs">
+                  <div class="thumbnail">
+                    <img src="images/music/T002R300x300M000000puzuK3Rsza7.jpg" alt="music">
+                    <div class="caption">
+                      <p>拉住我的手</p>
+                      <p>将阵容</p>
+                    </div>
+                  </div>
+                </div>
+              <!-- end img li -->
+
+              <!-- start img li -->
+                <div class="main-list-songs">
+                  <div class="thumbnail">
+                    <img src="images/music/300 (3).jpg" alt="music">
+                    <div class="caption">
+                      <p>项羽·虞姬</p>
+                      <p>星动亚洲</p>
+                    </div>
+                  </div>
+                </div>
+              <!-- end img li -->
+
+              <!-- start img li -->
+                <div class="main-list-songs">
+                  <div class="thumbnail">
+                    <img src="images/music/T002R300x300M000000Jwa7A1gzCI7.jpg" alt="music">
+                    <div class="caption">
+                      <p>但得刚刚好</p>
+                      <p>维奇</p>
+                    </div>
+                  </div>
+                </div>
+              <!-- end img li -->
+
+              <!-- start img li -->
+                <div class="main-list-songs">
+                  <div class="thumbnail">
+                    <img src="images/music/300 (5).jpg" alt="music">
+                    <div class="caption">
+                      <p>原谅歌</p>
+                      <p>小萌</p>
+                    </div>
+                  </div>
+                </div>
+              <!-- end img li -->
+            </div>
+            <!-- end one row  -->
+
+            
+
+            <!-- navbar-fixed-bottom -->
+          <!--             <nav class="navbar navbar-default navbar-fixed-bottom">
+              <div class="container-fluid">navbar-fixed-bottom</div>
+            </nav> -->
+            <!-- end navbar-fixed-bottom -->
+
+          </main>
+        </article>
+      </main>
+    </main>
+  </main>
+  <footer></footer>
+  <script src="js/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+
+<script src="/demos/googlegg.js"></script>
+  <div class="audio-box">
+    <div class="audio-container">
+      <div class="audio-view">
+        <div class="audio-cover" ></div>
+        <div class="audio-body">
+          <h3 class="audio-title">未知歌曲</h3>
+          <div class="audio-backs">
+            <div class="audio-this-time">00:00</div>
+            <div class="audio-count-time">00:00</div>
+            <div class="audio-setbacks">
+              <i class="audio-this-setbacks">
+                <span class="audio-backs-btn"></span>
+              </i>
+              <span class="audio-cache-setbacks">
+              </span>
+            </div>
+          </div>
+        </div>
+        <div class="audio-btn">
+          <div class="audio-select">
+            <div class="audio-prev"></div>
+            <div class="audio-play"></div>
+            <div class="audio-next"></div>
+            <div class="audio-menu"></div>
+            <div class="audio-volume"></div>
+          </div>
+          <div class="audio-set-volume">
+            <div class="volume-box">
+              <i><span></span></i>
+            </div>
+          </div>
+          <div class="audio-list">
+            <div class="audio-list-head">
+              <p>歌单</p>
+              <span class="menu-close">关闭</span>
+            </div>
+            <ul class="audio-inline">
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/audio.js"></script>
+<script type="text/javascript">
+$(function(){
+
+  var song = [
+    {
+      'cover' : 'images/cover2.jpg',
+      'src' : 'http://m2.music.126.net/4uhG3v3vvpRTwJ-HTd5P6w==/6637751697320553.mp3',
+      'title' : 'Memories'
+    },
+    {
+      'cover' : 'images/cover.png',
+      'src' : 'http://webmp3-1253691995.costj.myqcloud.com/audio/NumberOne.mp3',
+      'title' : 'number one'
+    },
+    {
+      'cover' : 'images/cover1.jpg',
+      'src' : 'http://webmp3-1253691995.costj.myqcloud.com/audio/dqwm.mp3',
+      'title' : '大橋のぞみ - 黒ネコのタンゴ'
+    },
+    {
+      'cover' : 'images/cover3.jpg',
+      'src' : 'http://webmp3-1253691995.costj.myqcloud.com/audio/qby.mp3',
+      'title' : '黒うさP,初音ミク - 千本桜'
+    },
+    {
+      'cover' : 'images/cover4.jpg',
+      'src' : 'http://webmp3-1253691995.costj.myqcloud.com/audio/jljt.mp3',
+      'title' : '极乐净土'
+    }
+  ];
+
+  var audioFn = audioPlay({
+    song : song,
+    autoPlay : true  //是否立即播放第一首，autoPlay为true且song为空，会alert文本提示并退出
+  });
+
+  /* 向歌单中添加新曲目，第二个参数true为新增后立即播放该曲目，false则不播放 */
+  audioFn.newSong({
+    'cover' : 'images/cover5.jpg',
+    'src' : 'http://webmp3-1253691995.costj.myqcloud.com/audio/baab.mp3',
+    'title' : 'B.A.A.B'
+  },false);
+
+  /* 暂停播放 */
+  //audioFn.stopAudio();
+
+  /* 开启播放 */
+  //audioFn.playAudio();
+
+  /* 选择歌单中索引为3的曲目(索引是从0开始的)，第二个参数true立即播放该曲目，false则不播放 */
+  //audioFn.selectMenu(3,true);
+
+  /* 查看歌单中的曲目 */
+  //console.log(audioFn.song);
+
+  /* 当前播放曲目的对象 */
+  //console.log(audioFn.audio);
+});
+
+</script>
+</body>
+</html>
